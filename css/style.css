@@ -64,18 +64,48 @@ body {
 }
 
 .portfolio {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: white;
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/wood.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .portfolio h1 {
-
+  font-size: 6vw;
 }
 
 .portfolio h2 {
+  font-size: 3vw;
+}
+
+.portfolio .card {
+  radius: 5px;
 
 }
 
-.portfolio item {
-  
+#project1 {
+
+}
+
+#project2 {
+
+}
+
+#project3 {
+
 }
