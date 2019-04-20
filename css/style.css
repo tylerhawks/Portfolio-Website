@@ -62,3 +62,20 @@ body {
     /* Background styles */
     background-color: rgba(0, 191, 255, 0.7);
 }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio h1 {
+
+}
+
+.portfolio h2 {
+
+}
+
+.portfolio item {
+  
+}
