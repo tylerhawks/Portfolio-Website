@@ -106,16 +106,17 @@ body {
 }
 
 .card {
-  background-color: #333;
-  border-radius: 1em;
-  padding: .5em;
-  width: 25vw;
-  min-width: 250px;
-  margin: .5em;
+  background-color: #303030;
+  color: white;
+  border-radius: .25em;
+  /* width: 25vw; */
+  /* min-width: 250px; */
+  margin: 1em;
 }
+
 .project-img {
   width: 25vw;
-  border-radius: .25em;
+  min-width: 250px;
 }
 
 .portfolio .btn {
@@ -134,24 +135,12 @@ body {
     color: white;
     text-decoration: none;
     font-size: 2vw;
+    font-weight: bold;
 
     /* Border styles */
-    border: 3px solid white;
-    border-radius: 20px;
+    border-radius: .25em;
+    margin-bottom: 5px;
 
     /* Background styles */
     background-color: rgba(0, 191, 255, 0.7);
-}
-
-
-#project1 {
-
-}
-
-#project2 {
-
-}
-
-#project3 {
-
 }
