@@ -106,7 +106,7 @@ body {
 }
 
 .card {
-  background-color: #303030;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
   color: white;
   border-radius: .25em;
   /* width: 25vw; */
