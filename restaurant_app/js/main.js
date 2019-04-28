@@ -7,7 +7,7 @@ var markers = []
 // Register service worker
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js')
+    navigator.serviceWorker.register('./restaurant_app/sw.js')
     .then(function(reg) {
       // registration worked
       console.log ('Registration succeeded');
